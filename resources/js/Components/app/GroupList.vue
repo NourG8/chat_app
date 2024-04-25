@@ -37,5 +37,17 @@ defineProps({
 </template>
 
 <style scoped>
-
+@media (min-width: 1024px) {
+    .lg\\:w-full {
+        width: 100%;
+    }
+    .lg\\:py-6 {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .lg\\:px-6 {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
 </style>
